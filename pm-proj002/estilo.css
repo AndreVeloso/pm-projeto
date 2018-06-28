@@ -1,0 +1,86 @@
+body {
+    
+    background-color: #e6e6e6;
+    width: 320px;
+    height: 568px;
+    
+}
+
+img {
+    
+    width: 320px;
+    height: 168px;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+
+.texto {
+    
+    
+    padding: 10px;
+    width: 300px;
+    height: 153px;
+    box-shadow: 0 1px 1px rgba(153, 153, 153 0.55);
+    border-radius: 0 0 5px 5px;
+    background-color: #ffffff;
+    
+}
+
+.onde{
+    
+    width: 55px;
+    height: 16px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+}
+
+.quando {
+    
+    margin-left: 15px;
+    width: 246px;
+    height: 16px;
+    color: #999999;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16px;
+    text-transform: uppercase;    
+}
+
+h2 { 
+    
+    width: 283px;
+    height: 54px;
+    color: #b5000d;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px; 
+    
+        
+}
+
+a  {  
+      
+      color: red;
+      text-decoration: none;
+    
+}
+
+p {
+    
+    width: 283px;
+    height: 32px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    
+}

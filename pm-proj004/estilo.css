@@ -1,0 +1,29 @@
+body {
+    background-color: #ffffff;
+}
+
+a {
+    
+}
+
+div {
+    width: 375px;
+    height: 150px;
+    background-color: #4a4a4a;
+    border-bottom-width: 10px;
+    border-bottom-color: white;
+}
+
+li {
+    padding: 70px;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
