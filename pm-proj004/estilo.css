@@ -2,28 +2,62 @@ body {
     background-color: #ffffff;
 }
 
+ul { 
+    padding: 0px;
+    margin: 0px;
+}
+
 a {
-    
-}
-
-div {
-    width: 375px;
-    height: 150px;
-    background-color: #4a4a4a;
-    border-bottom-width: 10px;
-    border-bottom-color: white;
-}
-
-li {
-    padding: 70px;
-    text-align: center;
-    width: 140px;
-    height: 30px;
     color: #ffffff;
-    font-family: Oswald;
+    text-decoration: none;
+    display: block;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2px;   
 }
 
+li {
+    padding: 60px 40px 60px 100px;
+    margin-bottom: 3px;
+    background-color: #4a4a4a;
+    color: #ffffff;
+    background-image: url(aberto.png);
+    background-repeat: no-repeat;
+    background-position: 30px center;
+}
+
+li:hover {
+    background-color: #6e6e6e;
+}
+
+li.p1{
+    background-color: #27ae60;
+    background-image: url(pronto.png);
+}
+
+li.p1:hover{
+    background-color: #52be7f;
+}
+
+li.p2{
+    background-color: #27ae60;
+    background-image: url(pronto.png);
+}
+
+li.p2:hover{
+    background-color: #52be7f;
+}
+
+li.p3{
+    background-color: #27ae60;
+    background-image: url(pronto.png);
+}
+
+li.p3:hover{
+    background-color: #52be7f;
+}
