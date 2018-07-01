@@ -2,7 +2,6 @@ body {
     text-align: center;
     display: block;
 }
-
 .Login { 
     width: 375px;
     height: 667px;
@@ -21,7 +20,6 @@ input {
         
         background-color: #745cc1;
         color: white;
-        text-align: left;
         line-height: 2;
         font-family: Roboto;
         font-size: 18px;
