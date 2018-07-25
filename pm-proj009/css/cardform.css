@@ -1,0 +1,113 @@
+.esquerda .cartoes h3#first {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #777879;
+    font-family: 'muliregular';
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.esquerda .cartoes ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.esquerda .cartoes li {
+    list-style: none;
+    padding: 15px;
+    margin: 10px; 
+}
+
+.esquerda .cartoes li:hover {
+    background-color: #f5f9fd;
+    box-shadow: inset 0 0 2px #d1e3f5;
+    border-radius: 5px;
+}
+
+.esquerda .cartoes small {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.esquerda .cartoes a {
+    text-decoration: none;
+    color: #c6c6c6;
+}
+
+.esquerda .formulario fieldset {
+    border: none;
+    text-align: center;
+}
+
+.esquerda .formulario legend {
+    font-size: 16px;
+    color: #777879;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.esquerda .formulario input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+}
+
+.esquerda .formulario input.data {
+    width: 149px;
+    margin-right: 10px;
+}
+
+.esquerda .formulario input.cvc {
+    width: 86px;
+}
+
+.esquerda ::-webkit-input-placeholder {
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.esquerda .formulario label {
+    display: flex;
+    margin-left: 35px;
+    color: #777879;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.esquerda .formulario label input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.esquerda .formulario button {
+    width: 295px;
+    padding: 15px;
+    background-color: #84d654;
+    font-size: 16px;
+    font-family: 'muliextrabold';
+    border-radius: 2px;
+    color: #ffffff;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+

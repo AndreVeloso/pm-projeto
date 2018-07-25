@@ -35,29 +35,11 @@ li:hover {
     background-color: #6e6e6e;
 }
 
-li.p1{
+li {
     background-color: #27ae60;
     background-image: url(pronto.png);
 }
 
 li.p1:hover{
-    background-color: #52be7f;
-}
-
-li.p2{
-    background-color: #27ae60;
-    background-image: url(pronto.png);
-}
-
-li.p2:hover{
-    background-color: #52be7f;
-}
-
-li.p3{
-    background-color: #27ae60;
-    background-image: url(pronto.png);
-}
-
-li.p3:hover{
     background-color: #52be7f;
 }

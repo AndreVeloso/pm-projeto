@@ -1,0 +1,412 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+header h1 {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 177px;
+    height: 76px;
+    background-image: url(nlogo.png);
+    background-repeat: no-repeat;
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+section#topo {
+    height: 828px;
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;    
+}
+
+header {
+    margin-bottom: -170px;
+}
+
+.caixa {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;   
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header nav ul li:nth-child(1) {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header nav ul li:nth-child(2) {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header nav ul li:nth-child(3) {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700; 
+}
+
+section#topo .top1 {
+        margin-top: 280px;
+        margin-left: 60px; 
+        width: 335px;
+        height: 60px;
+        color: white;
+        font-size: 28px;
+        font-weight: 500;   
+}
+
+    section#topo .top1 p {
+        width: 422px;
+        height: 44px;
+        color: white;
+        font-size: 34px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: -85px;
+}
+
+section#topo .top1 a {
+        text-decoration: none;
+        margin-left: -90px;
+        color: white;
+        border: 0px solid;
+        border-radius: 5px;
+        padding: 10px 149px 10px 149px;
+        background-color: #ff3d7f;
+        box-shadow: 0 6px 0 #a32751;
+}
+
+    section#conheca {
+        border-bottom: 3px solid #511099;
+        margin-top: 15px;
+}
+
+    section#conheca .top2 {
+        display: flex;
+        margin-bottom: 20px;
+}
+
+    section#conheca .top2 img {
+        background-position: no-repeat;
+        background-position: center left;
+        height: 397px;
+        width: 380px;
+        border-radius: 10px 10px 10px 10px;
+}
+
+    section#conheca .top2 h1 span {
+        visibility: hidden;
+}
+    
+    section#conheca .top22 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+    section#conheca .top22 h2 {
+        margin-top: -20px;
+        margin-left: 100px;
+        width: 375px;
+        height: 44px;
+        color: #000000;
+        font-size: 36px;
+        font-weight: 500;    
+}
+
+    section#conheca .top22 p {
+        width: 460px;
+        height: 116px;
+        font-size: 24px;
+        font-weight: 300;
+        margin-left: 100px;
+        color: #000000;
+        margin-top: -20px;
+        margin-bottom: -5px;
+}
+
+    section#conheca .top22 a {
+        text-decoration: none;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 180px;
+        margin-top: 20px;
+        color: white;
+        border: 0px solid;
+        border-radius: 5px;
+        padding: 20px 10px 20px 10px;
+        background-color: #ff3d7f;
+        box-shadow: 0 6px 0 #a32751;
+        font-size: 25px;
+}
+
+    section#depoimento {
+        background-color: #ebe8fb;
+        height: 439px;
+}
+
+    section#depoimento .top3 {
+        display: block;
+}
+
+    section#depoimento .top3 img {
+        background-image: url(fotodepoimento.png);
+        background-repeat: no-repeat;
+        width: 151px;
+        height: 150px;
+        margin-left: 400px;
+        margin-top: 50px;
+}
+
+    section#depoimento .top3 h1 span {
+        visibility: hidden;
+}
+
+    section#depoimento .top3 p {
+        width: 947px;
+        height: 87px;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: -40px;
+}
+
+    section#depoimento .top3 p b {
+        font-weight: 700;
+}
+
+    section#convite {
+        width: 100%;
+        height: 424px;
+        background-image: url(fundo-convite.png);
+        background-repeat: no-repeat;
+        border-bottom: 2px solid #fff;
+}
+
+    section#convite .top4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 600px;
+        height: 100px;
+        background-color: #ffffff;
+        margin-left: 180px;
+        margin-top: 160px;
+        border-radius: 3px;
+}
+
+    section#convite .top4 input {
+        width: 430px;
+        height: 39px;
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-left: 60px;
+        font-size: 20px;
+}
+    section#convite .top4 a {
+        margin-top: 55px;
+        text-decoration: none;
+        background-image: url(icone.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+}
+
+    footer {
+        height: 91px;
+        background-color: #2a0157;
+}
+
+    footer .top5 {
+        padding: 10px;
+        margin-left: 280px;
+        margin-top: 10px;
+}
+
+    footer .top5 p {
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        font-weight: 300;
+}
+
+@media (max-width: 512px) {
+    
+    header {
+        margin-bottom: -185px;
+}
+       
+    header h1 {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: -40px;
+    }
+    
+    header nav ul {
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header nav ul li {
+        margin: 0px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: right;
+    }
+    
+    section#topo .top1 {
+        width: 100%;
+        margin-top: 140px;
+        margin-left: 30px;
+    } 
+    
+    section#topo .top1 p {
+        width: 100%;
+        margin-left: -10px;
+        font-size: 24px;
+    }
+    
+    section#topo .top1 a {
+        width: 100%;
+        padding: 10px 50px 10px 50px;
+        margin-left: 20px;
+    }
+
+    section#conheca .top2 img {
+        max-width: 150px;
+        height: 150px;
+        border: 2px flex #e6e6e6;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+    
+    section#conheca .top2 .top22 h2 {
+        max-width: 100%;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+        font-size: 17px;
+        font-weight: 700;
+        color: #000000;
+    }
+    
+    section#conheca .top2 .top22 p {
+        max-width: 190px;
+        height: 120px;
+        margin-top: -30px ;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-size: 14px;
+        text-align: left justify;
+    }
+    
+    section#conheca .top2 .top22 a {
+        max-width: 310px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: -150px;
+        font-size: 16px;
+        padding: 3px  3px;
+        text-align: center;
+        font-weight: 300;
+        box-shadow: 1 2 2;
+        
+    }
+
+    section#depoimento .top3 img {
+        max-width: 151px;
+        height: 150px;
+        border: 2px flex #e6e6e6;
+        margin: 10px;
+    }
+    
+    section#depoimento .top3 p {
+        max-width: 190px;
+        height: auto;
+        margin-top: -120px;
+        margin-left: 155px;
+        margin-right: 10px;
+        font-size: 15px;   
+    }
+    
+    sectiom#depoimento .top3 {
+        margin-bottom: 10px solid #511099;
+    }
+   
+    section#convite {
+        width: 338px;
+        height: auto;
+        margin-top: -240px;
+        border-radius: 10px 10px;
+    }
+    
+    section#convite .top4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 330px;
+        height: 80px;
+        background-color: #ffffff;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        border-radius: 10px 10px;
+}
+
+    section#convite .top4 input {
+        width: 220px;
+        font-size: 12px;
+        margin-left: 3px;
+        margin-bottom: 0px;
+        
+    }    
+    
+    section#convite .top4 a {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+    
+    footer .top5 p {
+        width: 330px;
+        height: 80px;
+        margin-left: -285px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        text-align: center;
+    }

@@ -1,0 +1,41 @@
+@import url(cabecalho.css);
+@import url(cardform.css);
+@import url(carrinho.css);
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'muliregular';
+    font-size: 12px;
+}
+
+.estrutura {
+    width: 688px;
+    height: 558px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.27);
+}
+
+.estrutura section {
+    display: flex;
+}
+
+.estrutura section .esquerda {
+    width: 380px;
+    height: 100%;
+    background-color: #ffffff;
+}
+        
+.estrutura section .direita {
+    width: 300px;
+    height: 100%;
+}
+
+h1, h2, h3, ul {
+    margin: 0px;
+}
